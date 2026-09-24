@@ -1,0 +1,41 @@
+<! Doctype >
+
+<html>
+    <head>
+        <style>
+            body {
+                background-color: gold;
+                font-family: Sans-Serif;
+            }
+        </style>
+    </head>
+    <header>
+        
+        <title>Name function</title>
+    </header>
+    <body>
+      <div>
+          <h1>Name function</h1>
+          <p>The following program, is a name function.</p>
+      </div> 
+      <div>
+          <button type = "button" onclick="user()">What is your name?</button>
+      </div>
+    </body>
+    <script>
+
+
+// function name
+
+function user(){
+	let user1 = window.prompt("Enter your name : ");
+	let user2 = window.prompt("Enter your surname : ");
+	
+	let user3;
+	
+	user3 = user1 + " " + user2;
+	
+	window.alert("Hello " + user3 + " and Welcome to Business News Hub." );
+}
+    </script>
+</html>
